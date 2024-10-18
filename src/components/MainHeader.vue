@@ -5,7 +5,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="bg-menu">
-                <a class="navbar-brand" href="#">PyramIDE</a>
+                <a class="navbar-brand" style="margin-right: 0;" href="#">PyramIDE</a>
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Home</a>
@@ -21,7 +21,7 @@
                     </li>
                 </ul>          
             </div>
-            <button type="button">Get Started</button>                 
+            <button id="get_started" type="button">Get Started</button>                 
         </div>
     </nav>
 </template>
