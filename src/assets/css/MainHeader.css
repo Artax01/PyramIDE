@@ -1,0 +1,15 @@
+nav[class~=navbar] {
+    box-shadow: 0 0 1em rgba(0,0,0,.3);
+  }
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+div[class~=navbar-collapse] {
+  gap: 1em;
+}
+  
+  a[class~=nav-link]:hover {
+    text-decoration: underline;
+  }

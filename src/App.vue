@@ -1,5 +1,5 @@
 <script setup>
-import HomePage from './components/HomePage.vue'
+import MainHeader from './components/MainHeader.vue'
 </script>
 
 <template>
@@ -12,5 +12,5 @@ import HomePage from './components/HomePage.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
-  <HomePage/>
+  <MainHeader/>
 </template>
