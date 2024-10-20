@@ -11,7 +11,7 @@ const routes = [
     },
     {
         name: "Code",
-        path: "/PyramIDE/code",
+        path: "/PyramIDE/code/",
         component: Code,
     },
 ];

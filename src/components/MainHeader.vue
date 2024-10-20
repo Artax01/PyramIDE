@@ -21,9 +21,11 @@
                     </li>
                 </ul>          
             </div>
-            <button id="get_started" type="button">
-                <RouterLink to="/PyramIDE/code">Get Started</RouterLink>
-            </button> 
+            <RouterLink to="/PyramIDE/code">
+                <button id="get_started" type="button">
+                    Get Started
+                </button>
+            </RouterLink>
         </div>
     </nav>
     <RouterView></RouterView>
@@ -68,7 +70,7 @@ a[class~=nav-link]:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-  #bg-menu * {
+  #bg-menu {
     --bs-navbar-brand-hover-color: rgba(255, 255, 255, 0.87);
     --bs-navbar-brand-color: rgba(255, 255, 255, 0.87);
     --bs-navbar-active-color: rgba(255, 255, 255, 0.87);
