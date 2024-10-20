@@ -8,7 +8,7 @@
                 <a class="navbar-brand" style="margin-right: 0;" href="#">PyramIDE</a>
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <RouterLink to="/" class="nav-link active">Home</RouterLink>
+                        <RouterLink to="/PyramIDE/" class="nav-link active">Home</RouterLink>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Docs</a>
@@ -22,7 +22,7 @@
                 </ul>          
             </div>
             <button id="get_started" type="button">
-                <RouterLink to="/code">Get Started</RouterLink>
+                <RouterLink to="/PyramIDE/code">Get Started</RouterLink>
             </button> 
         </div>
     </nav>

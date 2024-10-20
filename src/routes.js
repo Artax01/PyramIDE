@@ -6,12 +6,12 @@ import Code from "./components/Code.vue";
 const routes = [
     {
         name: "Home",
-        path: "/",
+        path: "/PyramIDE/",
         component: Home,
     },
     {
         name: "Code",
-        path: "/code",
+        path: "/PyramIDE/code",
         component: Code,
     },
 ];
