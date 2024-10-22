@@ -5,7 +5,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="bg-menu">
-                <a class="navbar-brand" style="margin-right: 0;" href="#">PyramIDE</a>
+                <RouterLink to="/PyramIDE/" class="navbar-brand" style="margin-right: 0;">
+                  PyramIDE
+                </RouterLink>
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <RouterLink to="/PyramIDE/" class="nav-link active">Home</RouterLink>
@@ -14,30 +16,24 @@
                         <a class="nav-link active" href="#">Docs</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Github</a>
+                        <a class="nav-link active" href="https://github.com/Artax01/PyramIDE/" target="_blank">Github</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Credits</a>
                     </li>
                 </ul>          
             </div>
-            <RouterLink to="/PyramIDE/code">
+            <RouterLink to="login">
                 <button id="get_started" type="button">
                     Get Started
                 </button>
             </RouterLink>
         </div>
     </nav>
-    <RouterView></RouterView>
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router';
-
-export default {
-  name: "Header",
-  components: {},
-};
+import { RouterLink } from 'vue-router';
 </script>
 
 <style scoped>
@@ -52,6 +48,7 @@ nav[class~=navbar] {
 
 div[class~=navbar-collapse] {
   gap: 1em;
+  text-align: center;
 }
   
 a[class~=nav-link]:hover {
