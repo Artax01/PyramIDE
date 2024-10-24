@@ -16,9 +16,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body, #app {
+  height: 100% !important;
+}
+
 body {
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+}
+
+#app {
+  margin: 0 auto;
 }
 
 a {
@@ -47,10 +55,6 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-#app {
-  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: light) {

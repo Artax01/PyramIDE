@@ -1,6 +1,6 @@
 <template>
     <MainHeader/>
-    <div class="py-5">
+    <div class="container_">
         <LoginForm/>
     </div>
 </template>
@@ -9,3 +9,9 @@
 import MainHeader from '../components/MainHeader.vue';
 import LoginForm from '../components/LoginForm.vue';
 </script>
+
+<style scoped>
+.container_ {
+    height: 75vh !important;
+}
+</style>

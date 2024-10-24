@@ -1,19 +1,16 @@
 <template>
     <MainHeader/>
-    <header class="py-5 border-bottom center">
+    <header class="py-5 center">
         <div class="container-xxl hd-gutter">
             <div class="row gap-4">
                 <p class="hd-desc">Quickly get an IDE for online development projects that's also open source.</p>
-                <div class="d-flex flex-column flex-md-row gap-3 justify-content-center">
+                <div class="d-grid col-8 mx-auto">
                     <RouterLink to="login" class="btn btn-lg btn-primary fw-semibold gap-2">
                         <svg class="hd-icon-1 bi bi-lightning-charge-fill" style="background: transparent;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                             <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
                         </svg>
-                        Try Arckeus
+                        Try PyramIDE
                     </RouterLink>
-                    <a class="btn btn-lg btn-outline-secondary" href="https://github.com/Artax01/PyramIDE/" target="_blank">
-                        View source code
-                    </a>
                 </div>
             </div>
         </div>
@@ -22,8 +19,8 @@
 </template>
 
 <script setup>
+import MainHeader from '../components/MainHeader.vue';
 import { RouterView } from "vue-router";
-import MainHeader from "../components/MainHeader.vue";
 </script>
 
 <style scoped>
